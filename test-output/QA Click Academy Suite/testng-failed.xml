@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QA Click Academy Suite]">
+  <test name="Basic Tests(failed)">
+    <classes>
+      <class name="Project.validateTitle">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="titleTextValidation"/>
+          <include name="closeBrowser"/>
+          <include name="navbarPresent"/>
+        </methods>
+      </class> <!-- Project.validateTitle -->
+      <class name="Project.HomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Project.HomePageTest -->
+    </classes>
+  </test> <!-- Basic Tests(failed) -->
+</suite> <!-- Failed suite [QA Click Academy Suite] -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QA Click Academy Suite" duration-ms="22980" started-at="2018-05-27T03:00:14Z" finished-at="2018-05-27T03:00:37Z">
+    <groups>
+    </groups>
+    <test name="Basic Tests" duration-ms="22980" started-at="2018-05-27T03:00:14Z" finished-at="2018-05-27T03:00:37Z">
+      <class name="Project.HomePageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.HomePageTest@482f8f11]" name="openBrowser" is-config="true" duration-ms="10126" started-at="2018-05-26T21:00:14Z" finished-at="2018-05-26T21:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.LoginPageTest@4520ebad]" name="openBrowser" is-config="true" duration-ms="6593" started-at="2018-05-26T21:00:24Z" finished-at="2018-05-26T21:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="navbarPresent()[pri:0, instance:Project.HomePageTest@482f8f11]" name="navbarPresent" duration-ms="102" started-at="2018-05-26T21:00:31Z" finished-at="2018-05-26T21:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarPresent -->
+        <test-method status="PASS" signature="titleTextValidation()[pri:0, instance:Project.HomePageTest@482f8f11]" name="titleTextValidation" duration-ms="51" started-at="2018-05-26T21:00:31Z" finished-at="2018-05-26T21:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTextValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.HomePageTest@482f8f11]" name="closeBrowser" is-config="true" duration-ms="236" started-at="2018-05-26T21:00:37Z" finished-at="2018-05-26T21:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.LoginPageTest@4520ebad]" name="closeBrowser" is-config="true" duration-ms="255" started-at="2018-05-26T21:00:37Z" finished-at="2018-05-26T21:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Project.HomePageTest -->
+      <class name="Project.LoginPageTest">
+        <test-method status="PASS" signature="enterLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Project.LoginPageTest@4520ebad]" name="enterLogin" duration-ms="2736" started-at="2018-05-26T21:00:31Z" data-provider="getData" finished-at="2018-05-26T21:00:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratyusha321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLogin -->
+        <test-method status="PASS" signature="enterLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Project.LoginPageTest@4520ebad]" name="enterLogin" duration-ms="2857" started-at="2018-05-26T21:00:34Z" data-provider="getData" finished-at="2018-05-26T21:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[batman@gotham.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UnRestricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLogin -->
+      </class> <!-- Project.LoginPageTest -->
+    </test> <!-- Basic Tests -->
+  </suite> <!-- QA Click Academy Suite -->
+</testng-results>
